@@ -7,11 +7,17 @@ Use Django REST Framework to create an API, then “containerize” it with Dock
 * Clone the repo => `git clone git@github.com:moh-ash96/drf-api.git`
 * Install Dependencies => `poetry install`
 * Enter virtual environment => `poetry shell`
+* Build the image => `docker build`
+* Start the server => `docker-compose up`
 
 ## Change Log
 
 * First commit-README.md file
-* Second commit
+* Second commit:
+    * made django project and app
+    * set the API
+* Third commit:
+    * Docker is up
 
 ## Pull Request
 
